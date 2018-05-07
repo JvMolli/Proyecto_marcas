@@ -173,6 +173,9 @@ body{
 	font-size: 40px;
 	
 }
+
+
+
 .transparencia>.p{
 	margin-left: -105px;
 	margin-top: 10%;
@@ -260,9 +263,9 @@ padding-top: 1%;
 
 .img{
 	position: absolute;
-	margin-left: 63%;
+	margin-left: 58%;
 	margin-top: 5%;
-	width: 380px;
+	width: 445px;
 	margin-right: 0;
 	padding-right: 0;
 
