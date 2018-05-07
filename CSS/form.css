@@ -1,0 +1,93 @@
+body{
+    font-family: 'Do Hyeon', Serif;
+}
+
+div.contenedorfe {
+    width: 300px;
+    height: 380px;
+    background-color: #121212;
+    background-attachment: fixed;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-down: 8px;
+    border: 2px solid #EAB85D;
+}
+
+div.titulo {
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-family: 'Do Hyeon'; Serif;
+     text-align: center;
+    color: #EAB85D;
+}
+div.formulario {
+    text-align: center;
+    font-size: 13px;
+    color: #EAB85D;
+    margin: 0 auto;
+}
+
+input[type="password"]:focus {
+    margin:0 auto;
+    width: 90%;
+}
+input[type="password"]  {
+    margin:0 auto;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type="text"]:focus {
+    margin:0 auto;
+    width: 90%;
+}
+input[type="text"]  {
+    margin:0 auto;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type="radio"]{
+      margin:0 auto;
+}
+
+input[type="submit"]:hover {
+    margin:0 auto;
+    width: 80%;
+}
+
+input[type="submit"] {
+    background-color: #f2f2f2;
+    margin:0 auto;
+    width: 50%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type="reset"]:hover {
+    margin:0 auto;
+    width: 50%;
+}
+
+input[type="reset"] {
+    background-color: #f2f2f2;
+    margin:0 auto;
+    width: 40%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input:required:invalid {
+ 
+border: 1px solid red;
+ 
+}
+ 
+input:required:valid:hover {
+ 
+border: 1px solid green;
+ 
+}

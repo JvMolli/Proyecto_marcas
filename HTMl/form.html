@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formulario</title>
+	<link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./../CSS/general.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/form.css">
+</head>
+<body>
+	<script type="text/javascript" src="../js/player.js"></script>
+    <header class="cabeza">
+    	<div class="divcabeza">
+			<img src="../IMAGENES/Escudo.png" width="60" height="60">
+			<img src="../IMAGENES/letras.png" width="60" height="25">
+			<img class="fan" src="../IMAGENES/Fanáticos1.png" width="80" height="22">
+    	</div>
+    	<ul>
+      		<li><p><a href="proyect00.html">Inicio</a></p></li>	
+      		<li><p><a href="#">Historia</a></p></li>
+      		<li><p><a href="Mantenimiento.html">Partidos</a></p></li>
+      		<li><p><a href="#">Jugadores</a></p></li>
+     		 <li><p><a href="Videos.html">Momentos</a></p></li>
+    	</ul>
+    
+    	<ul class="ulbotones">
+     		<a href="#" class="button blue radius">
+    		Inicio Sesion</a>
+      		<a href="form.html" class="button yellow radius">
+    		REGISTRAR</a> 
+    	</ul>
+    
+    <div class="player">
+    <audio id="audio" src="../Multimedia/Real.mp3" loop="on"></audio>
+	<button id="play" onclick="play()">►</button>	
+	<button id="pause" onclick="pause()">| |</button>
+	</div>
+  </header>
+
+
+	<div class="transparencia">
+    		
+    			
+    	<div class="contenedorfe">
+			<div class="titulo">FORMULARIO DE REGISTRO</div><br>
+			<div class="formulario">
+				<form>
+  						Usuario / User:<br>
+  						<input type="text" name="User" required><br><br>
+						  Contraseña / Password: <br>
+						  <input type="password" name="firstname" required><br><br>
+						  Correo / Email:<br>
+  						<input type="text" name="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required><br><br>
+  						<input type="radio" name="gender" value="male" checked>Hombre / Male<br><br>
+ 						<input type="radio" name="gender" value="female"> Mujer / Female<br><br>
+   <!-- Para habilitar el boton elimina la palabra disabled del submit -->
+  						<input type="submit" onclick="alert('Bienvenido a Fanaticos del R.Madrid')" value="	Adelante" ><br><br>
+  						<input type="reset">
+				</form>		
+
+			</div>
+   		</div>    
+
+    </div>
+   <div class="fondo">
+	</div>
+
+
+
+
+	<footer>
+  		<div class="img">
+  			<img src="../IMAGENES/banderita.png" width="25" height="12">
+  			<img src="../IMAGENES/trofeo mundilito.gif" width="75" height="90">
+  			<img src="../IMAGENES/ligas.jpg" width="75" height="90">
+  			<img src="../IMAGENES/vinilo.png" width="75" height="100">
+  			<img  src="../IMAGENES/escudoBlanco.jpg" width="75" height="75">  		
+  			
+		</div>
+
+		<ul>
+			<li><a href="">Sobre Nosotros</a></li>
+			<li><a href="">RRSS</a></li>
+			<li><a href="">Contacto</a></li>
+			<li><a href="">Recomendaciones</a></li>
+			<li><a href="https://www.realmadrid.com/">Real Madrid</a></li>
+		</ul>
+
+  	</footer>
+
+ 
+
+
+
+</body>
+</html>

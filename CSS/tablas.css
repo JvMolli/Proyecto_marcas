@@ -1,0 +1,11 @@
+jugadores { display: table; width: 500px; 
+              border: 5px double black; margin: 10px 50px; }
+jugador { display: table-caption; font: bold italic 20px verdana; 
+         color: navy;text-align: center;  }
+ { display: table-row; font: bold 14px arial; 
+           text-align: center;  }
+/*contacto{ display:  table-row; font: normal 14px arial; 
+          text-align: left; }*/
+img, nombre, posicion, edad, goles, nacionalidad, descripcion { display: table-cell; 
+        border: 1px solid black; border-collapse: collapse; 
+        padding: 3px 5px;}

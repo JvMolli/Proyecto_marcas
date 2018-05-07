@@ -1,0 +1,492 @@
+:root{}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #cccccc; 
+    border-radius: 10px;
+    width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10px;
+    width: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:  #ffd700; 
+    width: 10px;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	padding-top: 80px;
+	background-image: url(../IMAGENES/fondo4.jpg);
+	background-size: contain;
+	height: 100%;	
+
+}
+
+.cabeza{
+	background-color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height:80px;
+	margin: 0;
+	margin-top: -80px;
+	position: fixed;
+	z-index: 2;
+	/*background-color: #00001a;*/
+}
+
+.cabeza>.divcabeza>img{
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+.cabeza>.divcabeza>.fan{
+		position: absolute;
+		margin-top: -55px;
+		margin-left: 60px;
+}
+
+.divcabeza{
+	float: left;
+}
+
+.cabeza>ul{
+	position: flex;
+	align-content: center;
+	/*float: right;*/
+	float: left;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.cabeza>ul>li{
+	list-style: none;
+	display: inline-block;
+	background-color: #f2f2f2;
+	margin-left: 15px;
+	width: 110px;
+	border-radius: 5px;
+
+}
+
+.cabeza>ul>li>p{
+	font-family: 'Do Hyeon', sans-serif;
+	color: #a6a6a6;
+	text-align: center;
+	text-decoration:none;
+}
+
+.cabeza>ul>li>p>a{
+	font-family: 'Do Hyeon', sans-serif;
+	color: #a6a6a6;
+	text-align: center;
+	text-decoration:none;
+}
+
+.cabeza>ul>li:hover{
+	background-color: #00004d;
+}
+
+
+.ulbotones{
+	float: left;
+}
+
+.button {
+	background:#7f8c8d;
+	color:#00004d;
+	display:inline-block;
+	font-size:1.10em;
+	margin:0;
+	margin-left:10px;
+	padding:10px 0;
+	text-align:center;
+	width:110px;
+	text-decoration:none;
+	/*box-shadow:0px 3px 0px #373c3c;*/
+	font-family: 'Do Hyeon', sans-serif;
+
+}
+.button.radius {
+	border-radius:2px;
+}
+.button.blue {
+	background:#f2f2f2;
+	/*box-shadow:0px 0.5px 0px black;*/
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+	width: 120px;
+	height: 25px;
+	/*background:#e6e600;*/
+}
+.button.yellow {
+	color: white;
+	background:#990000;
+	box-shadow:0px 1px 0px #b55704;
+}
+
+
+.fondo{
+	position: relative;
+	margin: 0;
+	/*margin-top: 80px;*/
+	z-index: -5;	
+	background-image: url(../IMAGENES/background-real-madrid-2017.jpg) ;
+	background-size: cover;
+	width: 100%;
+	height:60vh;
+	overflow: hidden;
+}
+
+.transparencia{
+	position: absolute;
+	width: 100%;
+	height:60vh;
+	background-color: rgba(0,0,0, 0.5);
+	z-index: 1;
+	margin: 0;
+	padding-right: 0;
+}
+.transparencia>p{
+	margin-top: 3%;
+	margin-left: 50px;
+	/*position: absolute;*/
+	float: left;
+	color: white;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 40px;
+	
+}
+.transparencia>.p{
+	margin-left: -105px;
+	margin-top: 10%;
+	float: left;
+	color: white;
+	font-family: 'Hi Melody', cursive;
+	font-size: 2em;
+}
+
+.player{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+button {
+	border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 219, 0, 0.7) ;
+}
+#pause {
+	display: none;
+}
+
+.main{
+	border-radius: 10px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.0);
+	margin: 0 auto;
+	color: white;
+	width: 1100px;
+	font-family:  'Do Hyeon', Serif;
+	}
+
+.main>p{
+	font-family:  'Do Hyeon', Serif;
+	font-size: 1.5em;
+	background-color: white;
+	
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1)
+}
+
+
+.main>ul{
+	width: 290px;
+	float: left;
+}
+
+
+.main>article{
+	margin-top: 80px;
+	font-size: 1.75em;
+	background-color: (0,0,0, 0.9);
+}
+
+article>center>a{
+	background-color: (0, 0, 0, 0.5);
+	color: gold;
+	animation-direction: alternate-reverse;
+}
+
+
+footer{
+margin-top: 150px;
+background-color: black;
+width: 100%;
+height: 250px;
+padding: 0;
+padding-top: 1%;
+
+
+}
+
+/*footer>img{
+	float: right;
+	margin-top: 140px;
+	margin-left: 10px;
+
+}*/
+
+.img{
+	position: absolute;
+	margin-left: 63%;
+	margin-top: 5%;
+	width: 380px;
+	margin-right: 0;
+	padding-right: 0;
+
+	
+
+}
+
+.img>img{
+	position: relative;
+	margin-left: 2%;
+}
+footer>ul{
+	float: left;
+	font-family:  'Do Hyeon', Serif;
+	font-size: 1.05em;
+	text-decoration: none;
+	color: white;
+	height: 80%;
+}
+footer>ul>li{
+	font-family:  'Do Hyeon', Serif;
+	text-decoration: none;
+	color: white;
+	margin-top: 15px;
+	list-style: square;
+
+}
+footer>ul>li>a{
+	color: white;	
+}
+
+
+
+/*------------SECCION DE MOMENTOS.------------------------*/
+
+.divimg{
+	margin-left: 10%;
+	margin-top: 50px;
+	width: 13vh;
+	height: 20vh;
+	float: left;
+	z-index: 15;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.parrafo{
+	margin-left: 5%;
+	width: 85%;
+	color:white;
+	font-family:  'Do Hyeon', Serif;
+	font-size: 1.50em;
+}
+
+.transparecia>.p3{
+	position: absolute;
+	margin-left: 10px;
+	color: white;
+	align-content: center;
+	
+	
+}
+
+.videos{
+	margin-top: 25px;
+}
+
+.mantenimiento{
+	
+	width: 100%;
+	z-index: 2;
+	
+	background-size: cover;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}
+
+
+
+
+
+.p {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgba(255,255,255,.25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    width: 8em;
+    margin: 0 0 0 -20em;
+
+  
+  span {
+
+    font: 700 1em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+      display: block;
+      margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+      background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+      -webkit-background-clip: text;
+      background-clip: text;
+
+/* Animate Background Image */
+
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+      -webkit-transform: translate3d(0,0,0);
+      -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+.trans{position: relative;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 100%;
+	height: 570px;
+}
+
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%)
+}
+
+.image_box {
+    position: absolute;
+    width: 1050px;
+    height: 550px;
+    background-size: cover;
+    border: 2px solid #CCC;
+    border-radius: 20px;
+    overflow: hidden
+}
+
+.image_box img {
+    width: 100%;
+    transition: .8s
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: .5s
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0) scale(1) skew(-45deg);
+    transition: 1.0s
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.content h1 {
+    padding: 0;
+    color: #00F;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    transform: translateY(-15px) scale(0);
+}
+
+.content p {
+    padding: 0;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, .8);
+    text-align: justify;
+    transform: scale(1.5);
+    opacity: 0 
+}
+
+
+.image_box:hover .content h1{
+    transform: translateY(-15px) scale(1);
+    transition: 1.60s
+}
+
+.image_box:hover .content p {
+    transform: translateY(-20px) scale(1);
+    opacity: 1;    
+    transition: 1.6s 
+}
+
+.image_box:hover img {
+    transform: scale(1.1);
+    transition: 1.5s
+}
+
+.image_box:hover .container::before {
+    background-color: rgba(146, 138, 138, 0.8)
+}
