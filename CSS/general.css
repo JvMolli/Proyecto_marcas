@@ -155,6 +155,7 @@ body{
 	width: 100%;
 	height:60vh;
 	overflow: hidden;
+	
 }
 
 
@@ -162,22 +163,34 @@ body{
 	position: absolute;
 	width: 100%;
 	height:60vh;
-	background-color: rgba(0,0,0, 0.8);
+	background-color: rgba(0,0,0, 0.9);
 	z-index: 1;
 	margin: 0;
 	padding-right: 0;
+	filter: opacity(100%);
+	transition: 3s;
 }
 
 .transparencia:hover{
 	filter: opacity(1%);
-	transition: 3s;
+	width: 50%;
+	height: 50%;
+	transition: 2.5s;
 
 }
 
-.transparencia:before{
+.transparencia2{
+	position: absolute;
+	width: 100%;
+	height:60vh;
+	background-color: rgba(0,0,0, 0.8);
+	z-index: 1;
+	margin: 0;
+	padding-right: 0;
 	filter: opacity(100%);
-	transition: 3s;
+	
 }
+
 
 
 .transparencia>p{
@@ -361,6 +374,26 @@ footer>ul>li>a{
 	float: left;
 	z-index: 15;
 	background-color: rgba(0,0,0,0.0);
+	filter: grayscale(50%);
+	transition: 2.0s;
+}
+
+.divimg:hover{
+	filter: brightness(100%);
+	filter: contrast(100%);
+	transition: 2.0s
+}
+
+.divimg>a>img{
+	transition:2.0s;
+}
+
+.divimg>a>img:hover{
+	width: 150px;
+	height: 200px;
+    filter: hue-rotate(5deg);
+    filter: drop-shadow(2px 2px 4px #dde293);
+	transition: 2.0s;
 }
 
 .parrafo{
