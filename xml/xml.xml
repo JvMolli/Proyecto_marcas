@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="./xml/tablasjugadores.xsl"?>
+<?xml-stylesheet type="text/xml" href="./tablasjugadores.xsl"?>
 	<jugadores>
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/navas.png"></img>
+			<img ruta="../IMAGENES/Jugadores/navas.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -13,7 +13,7 @@
 		</jugador>
 
 		<jugador num="2">
-			<img ruta="./IMAGENES/Jugadores/carvajal.png"></img>
+			<img ruta="../IMAGENES/Jugadores/carvajal.png"></img>
 			<nombre>Carvajal</nombre>
 			<posiscion>Lateral</posiscion>
 			<edad>29</edad>
@@ -24,7 +24,7 @@
 		</jugador>
 		
 		<jugador num="3">
-			<img ruta="./IMAGENES/Jugadores/marcelo.png"></img>
+			<img ruta="../IMAGENES/Jugadores/marcelo.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -34,7 +34,7 @@
 		</jugador>
 
 		<jugador num="1">
-			<img ruta="IMAGENES/Jugadores/varane.png"></img>
+			<img ruta="../IMAGENES/Jugadores/varane.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -44,7 +44,7 @@
 		</jugador>
 		
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/ramos.png"></img>
+			<img ruta="../IMAGENES/Jugadores/ramos.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -54,7 +54,7 @@
 		</jugador>
 
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/casemiro.png"></img>
+			<img ruta="../IMAGENES/Jugadores/casemiro.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -64,7 +64,7 @@
 		</jugador>
 		
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/kroos.png"></img>
+			<img ruta="../IMAGENES/Jugadores/kroos.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -74,7 +74,7 @@
 		</jugador>
 
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/modric.png"></img>
+			<img ruta="../IMAGENES/Jugadores/modric.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -84,7 +84,7 @@
 		</jugador>
 
 			<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/isco.png"></img>
+			<img ruta="../IMAGENES/Jugadores/isco.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -94,7 +94,7 @@
 		</jugador>
 
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/cr.png"></img>
+			<img ruta="../IMAGENES/Jugadores/cr.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -103,7 +103,7 @@
 			<descripcion>Portero titular, Un portero agil y seguro debajo de los palos</descripcion>
 		</jugador>
 			<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/benzema.png"></img>
+			<img ruta="../IMAGENES/Jugadores/benzema.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
@@ -113,7 +113,7 @@
 		</jugador>
 
 		<jugador num="1">
-			<img ruta="./IMAGENES/Jugadores/asensio.png"></img>
+			<img ruta="../IMAGENES/Jugadores/asensio.png"></img>
 			<nombre>Keylor Navas</nombre>
 			<posiscion>Portero</posiscion>
 			<edad>29</edad>
